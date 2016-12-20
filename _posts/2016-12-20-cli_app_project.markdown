@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CLI App Project"
-date:   2016-12-20 06:38:52 +0000
+date:   2016-12-20 01:38:52 -0500
 ---
 
 
@@ -18,7 +18,7 @@ The first thing to handle was finding the appropriate url for scraping.  Luckily
 ## Code
 I started with the Actor class.  I initially struggled naming it because I knew the list would be populated with writers, producers, directors, etc. in addition to actors, but decided the simplicity was worth my dissatisfaction.  The attribute accessors were simple enough, I just made one for each of the attributes I needed.  Name, year, (the day would always be the same), profile_url, occupations, known_for, and bio_intro.  I initially included a trivia item, but it malfunctioned for lesser-known actors (if nobody listed a trivia fact, the box didn't exist).
 
-I wanted to initiate the Actor with a name, year, and profile url, and make it push itself into @@all, so I could iterate through @@all and output a string for each.  Then I'd only need one line: `puts "#{self.name} was born today, #{Scraper.today}, #{self.year}` to make the initial list.  
+I wanted to initiate the Actor with a name, year, and profile url, and make it push itself into @@all, so I could iterate through @@all and output a string for each.  Then I'd only need one line: `puts "#{self.name} was born today, #{Scraper.today}, #{self.year}"` to make the initial list.  
 
 That meant I needed the initial scrape of the date page to return a hash with attribute keys and string values.  I'm sure there's something really complicated to scraping (the lessons here on Learn all mention that it's difficult and I shouldn't get frustrated), but I think it's easy enough.  Once I understood how to use open-uri and Nokogiri to create a searchable and iteratable (? iterable?  feels like there's a word there) document, the css tags made it very simple to find the text I needed.  The real trouble lied with getting the text to look pretty.
 
