@@ -25,5 +25,5 @@ I've worked on painting crews, construction crews, NASA's small business crew, a
 
 Ok, those last two kinda fell off the rails there, but I wanted to squeeze them in.  The problem is, since graduating from The George Washington University in 2011 with my shiny new Bachelor of Science degree in Economice, I've been employed at a restaurant as often as not.  Thought it was time for a change, and here we are.  
 
-## Where I'm going
+## Where I'm going:
 Well, sky's the limit, I suppose.  I looked up programming bootcamps and found Flatiron School's online web dev program.  Working through now, (only just noticed blog posts were supposed to be assigned weekly, so please forgive the catch-up period).  I'm hoping to finish quickly, and up and move across the country.  I figure a career change is the best time to move, and without an impetus, people generally stay put.  This feels like my chance to set myself where I decide, rather than just accepting where I was put.  Wish me luck.
