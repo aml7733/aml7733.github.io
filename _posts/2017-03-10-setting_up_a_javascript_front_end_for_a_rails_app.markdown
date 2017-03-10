@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting Up a Javascript Front End for a Rails App"
-date:   2017-03-10 03:39:58 +0000
+date:   2017-03-09 22:39:59 -0500
 ---
 
 
