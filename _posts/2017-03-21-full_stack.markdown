@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Full Stack"
-date:   2017-03-21 22:38:21 +0000
+date:   2017-03-21 18:38:22 -0400
 ---
 
 
