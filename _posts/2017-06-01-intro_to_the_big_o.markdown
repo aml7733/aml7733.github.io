@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Intro to the Big O
-date:   2017-06-01 00:31:50 +0000
+date:   2017-05-31 20:31:51 -0400
 ---
 
 
@@ -15,15 +15,15 @@ The first keeps track of the current largest value, updating as the function ite
 
 ```
 def compare_to_max (array)
-    return nil if array.length == 0
+ return nil if array.length == 0
 		
-		current_max = array[0]
+ current_max = array[0]
 		
-		array.each do |element|
-		    current_max = element if element > current_max
-		end
+ array.each do |element|
+	current_max = element if element > current_max
+ end
 		
-		current_max
+ current_max
 end
 ```
 
@@ -33,26 +33,26 @@ The second way compares each value to all other values, only returning the eleme
 
 ```
 def compare_to_all (array)
-    return nil if array.length == 0
+ return nil if array.length == 0
 		
-		i = array.length - 1
-		while i > 0
-		    is_max = true
+ i = array.length - 1
+ while i > 0
+	 is_max = true
 				
-				j = 0
-				while j < array.length
-				    if array[j] > array[i]
-						    is_max = false
-								break
-						end
-						
-				    j += 1
-				end
-				
-				break if is_max
-				
-		    i -= 1
+	 j = 0
+	 while j < array.length
+	  if array[j] > array[i]
+	 	 is_max = false
+	 	 break
 	  end
+		j += 1
+	 end
+  end
+				
+  break if is_max
+				
+  i -= 1
+ end
 		
 		array[i]
 end
